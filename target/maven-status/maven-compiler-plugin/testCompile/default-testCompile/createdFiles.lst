@@ -1,0 +1,6 @@
+com\seleniumjava\testcases\TC_LoginTest_001.class
+com\seleniumjava\utilities\XLUtils.class
+com\seleniumjava\utilities\ReadConfig.class
+com\seleniumjava\utilities\Reporting.class
+com\seleniumjava\pageobjects\LoginPage.class
+com\seleniumjava\testcases\BaseClass.class

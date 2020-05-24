@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumJava]">
+  <test thread-count="5" name="BankingApp Test(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.seleniumjava.testcases.TC_LoginTest_001">
+        <methods>
+          <include name="trearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.seleniumjava.testcases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [SeleniumJava] -->
